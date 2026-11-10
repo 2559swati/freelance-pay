@@ -1,0 +1,20 @@
+{
+  "name": "freelance-pay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@tailwindcss/vite": "^4.3.4",
+    "hardhat": "^2.29.1"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9"
+  }
+}

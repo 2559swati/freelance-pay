@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* professional pink primary */
+  --color-primary: #ff69b4; /* hot pink */
+  --color-primary-foreground: #ffffff;
+  --font-heading: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+@layer utilities {
+  .bg-primary { background-color: var(--color-primary); }
+  .text-primary { color: var(--color-primary); }
+  .font-body { font-family: var(--font-body); }
+  .font-heading { font-family: var(--font-heading); }
+}
